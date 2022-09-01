@@ -1,0 +1,49 @@
+#container {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#container nav {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #28292c;
+}
+
+#container nav #titleShown {
+    width: 30%;
+    height: 100%;
+    line-height: 40px;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    float: left;
+    padding: 0 0 0 1em;
+}
+
+#container nav #buttons {
+    float: right;
+    width: 150px;
+    height: 100%;
+    line-height: 40px;
+    background-color: transparent;
+}
+
+#buttons #minimize, #buttons #maximize, #buttons #close {
+    float: left;
+    height: 40px;
+    width: 33%;
+    text-align: center;
+}
+
+#buttons #minimize:hover, #buttons #maximize:hover {
+    background-color: #2e2f33;
+}
+
+#buttons #close:hover {
+    background-color: #5a2b2b;
+}

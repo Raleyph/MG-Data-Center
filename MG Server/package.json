@@ -1,0 +1,24 @@
+{
+  "name": "mg-data-center",
+  "version": "0.0.1",
+  "description": "Клиент-серверная система хранения и систематизации файлов, обмена между устройствами и поиска.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raleyph/MG-Data-Center.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raleyph/MG-Data-Center/issues"
+  },
+  "homepage": "https://github.com/Raleyph/MG-Data-Center#readme",
+  "dependencies": {
+    "custom-electron-titlebar": "^4.1.0",
+    "electron": "^20.1.1",
+    "jquery": "^3.6.1"
+  }
+}
